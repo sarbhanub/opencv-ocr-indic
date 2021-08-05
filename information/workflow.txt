@@ -1,0 +1,36 @@
+Workflow
+
+PIL(Pillow) -> Open an Image
+OpenCV -> Manipulation of an Image //Binarize
+Tesseract (PyTesseract) -> OCR an Image
+
+Pillow
+OpenCV
+
+-> Varying Degree of White and Gray
+-> Varying Degree of Light Black and Dark Black Stamps and Watermarks
+-> Remove Noises and Irrelevant info
+
+Extract and Identify Individual Rows & Cells
+-> Saving them temporarily
+-> Send the files to Tesseract for Binarization
+
+Tabula | Tesseract
+
+Downloading Tesseract
+
+https://tesseract-ocr.github.io/tessdoc/
+https://github.com/UB-Mannheim/tesseract/wiki
+
+image operations
+
+inversion
+rescsale
+binarization
+noise removal
+dilation and erosion
+rotation /deskewing
+removing borders
+missing borders
+
+PyTesseract
